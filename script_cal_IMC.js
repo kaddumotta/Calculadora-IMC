@@ -20,6 +20,9 @@ if (imc < 18.5) {
 } else if (imc >= 18.5 & imc <= 24.9) {
     resultado.innerHTML = `${nome} Seu IMC é de: ${imc} <p> Sua classificação é: Peso Normal </p>`
 
+} else if (imc >= 25 & imc <= 29.9) {
+    resultado.innerHTML = `${nome} Seu IMC é de: ${imc} <p> Sua classificação é: Excesso de Peso </p>`
+
 } else if (imc >= 30 & imc <= 34.9) {
     resultado.innerHTML = `${nome} Seu IMC é de: ${imc} <p> Sua classificação é: Obesidade Grau 1 </p>`
     
