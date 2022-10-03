@@ -1,4 +1,7 @@
-
+body {
+    background-color: gray;
+    
+}
 
 
 .geral {
@@ -7,7 +10,7 @@
     margin-top: 2px;
     width: 250px;
     height: 550px;
-    background-color: rgb(252, 215, 9);
+    background-color: rgb(214, 213, 205);
     border-radius: 10px;
     
 }
@@ -37,7 +40,7 @@ h1 {
 
 .botao {
     background-color: black;
-    color: rgb(252, 215, 9) ;
+    color: rgb(223, 221, 209) ;
     display: block;
     width: 90%;
     height: 30px;
@@ -50,7 +53,7 @@ h1 {
 }
 
 .botao:hover {
-    background-color: rgb(252, 215, 9);
+    background-color: rgb(224, 222, 208);
     color: black ;
     display: block;
     width: 90%;
@@ -72,7 +75,7 @@ h1 {
     width: 90% ;
     height: 20%;
     background-color: black;
-    color: rgb(252, 215, 9);
+    color: rgb(224, 222, 211);
     border-radius: 5px;
     text-align: center;
 }
